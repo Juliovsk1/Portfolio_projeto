@@ -7,6 +7,10 @@ body{
     margin-right: 15%;
 }
 
+a{
+    color: black;
+}
+
 .conteiner{
     display: grid;
     grid-auto-flow: column;
@@ -14,12 +18,43 @@ body{
 }
 
 #header{
+    font-size: 28px;
     text-decoration: underline;
-    margin-top: 40px;
+    margin-top: 10px;
     margin-bottom: 50px;
+}
+
+#menu{
+    text-align: right;
+    margin-top: 57px;
 }
 
 #menu ul{
     list-style-type: none;
     margin: 0;
+    padding: 0;
+}
+
+#menu li{
+    display: inline-block;
+    margin-left: 25px;
+}
+
+#textTop p{
+    color: #575455;
+}
+
+#textTop h1{
+    font-size: 55px;
+}
+
+#imgtop{
+    border-radius: 65px;
+}
+
+#botaoTop{
+    background-color: #1F7CFF;
+    color: white;
+    text-decoration: none;
+    padding: 9px;
 }
