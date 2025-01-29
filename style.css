@@ -64,3 +64,16 @@ a{
 #imgTop img{
     width: 100%;
 }
+
+.Logos{
+    padding-top: 55px;
+    padding-bottom: 58px;
+    text-align: center;
+}
+
+#textlogo{
+    padding-top: 55px;
+    padding-bottom: 58px;
+    font-weight: 600;
+
+}
