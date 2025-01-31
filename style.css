@@ -77,3 +77,44 @@ a{
     font-weight: 600;
 
 }
+
+h2.red{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #F75C4E;
+}
+
+h1.black{
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: black;
+    margin-top: 0px;
+}
+
+    .textgray{
+        color: #575455;
+        text-align: center;
+    }
+
+    .icon{
+        text-align: center;
+    }
+
+    .iconText{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    }
