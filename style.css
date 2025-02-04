@@ -78,39 +78,37 @@ a{
 
 }
 
-h2.red{
+#red{
     font-family: Poppins;
     font-size: 16px;
     font-weight: 700;
     line-height: 24px;
-    text-align: center;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: #F75C4E;
 }
 
-h1.black{
+#black{
     font-family: Poppins;
     font-size: 36px;
     font-weight: 700;
     line-height: 54px;
-    text-align: center;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: black;
     margin-top: 0px;
 }
 
-    .textgray{
-        color: #575455;
-        text-align: center;
+
+.textgray{
+    color: #575455;
     }
 
-    .icon{
-        text-align: center;
+.icon{
+    text-align: center;
     }
 
-    .iconText{
+.iconText{
     font-size: 20px;
     font-weight: 600;
     line-height: 30px;
@@ -118,3 +116,22 @@ h1.black{
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     }
+#imgContact{
+        width: 100%;
+    }
+#formText{
+        margin-left: 75px;
+    }
+.textMeio{
+        text-align: center;
+    }
+#form{
+    margin-top: 80px;
+}
+#inputEmail{
+    border-radius: 50px;
+    background: #F5F6FB;
+    width: 90%;
+    border: 0;
+    padding: 9px 7px 9px 25px;
+}
