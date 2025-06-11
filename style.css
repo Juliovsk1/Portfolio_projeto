@@ -160,17 +160,10 @@ a{
     margin-bottom: 40px;
 
 }
-#imgInferior{
-    margin-top: 75px;
-    margin-bottom: 300px;
-    display: grid;
-    grid-auto-flow: column;
-    grid-auto-columns: 1fr;
-}
-#imgInferior img{
+.img img{
     width: 100%;
 }
-#imgInferior .img{
-    margin-right:70px;
-    margin-top: 70px;
+.img{
+padding: 15px 25px 15px 25px;
+margin-bottom: 300px;
 }
