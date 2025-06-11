@@ -130,8 +130,19 @@ a{
 }
 #inputEmail{
     border-radius: 50px;
-    background: #F5F6FB;
-    width: 90%;
+    width: 60%;
     border: 0;
-    padding: 9px 7px 9px 25px;
+    padding: 9px 10px 9px 25px;
+    font-size: 16px;
+    background-color: #F5F6FB;
+    color: #575455;
+}
+#botaoForm{
+    margin-top: 20px;
+    border-radius: 50px;
+    background-color: #1F7CFF;
+    color: white;
+    font-size: 16px;
+    padding: 9px 60px 9px 60px;
+    border: 0px;
 }
