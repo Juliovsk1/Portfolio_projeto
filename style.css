@@ -78,7 +78,7 @@ a{
 
 }
 
-#red{
+.red{
     font-family: Poppins;
     font-size: 16px;
     font-weight: 700;
@@ -88,8 +88,8 @@ a{
     color: #F75C4E;
 }
 
-#black{
-    font-family: Poppins;
+.black{
+  font-family: Poppins;
     font-size: 36px;
     font-weight: 700;
     line-height: 54px;
@@ -127,6 +127,7 @@ a{
     }
 #form{
     margin-top: 80px;
+    margin-bottom: 100px;
 }
 #inputEmail{
     border-radius: 50px;
@@ -145,4 +146,17 @@ a{
     font-size: 16px;
     padding: 9px 60px 9px 60px;
     border: 0px;
+}
+#textInferior{ 
+    margin-top: 80px;
+    margin-bottom: 40px;
+
+}
+#imgInferior{
+    margin-top: 75px;
+    margin-bottom: 300px;
+}
+.img{
+    margin-right: 100px;
+    padding-left: 15px;
 }
