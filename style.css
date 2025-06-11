@@ -43,6 +43,7 @@ a{
 
 #textTop p{
     color: #575455;
+    margin-bottom: 40px;
 }
 
 #textTop h1{
@@ -60,6 +61,7 @@ a{
 
 #imgTop{
     margin-left: 42px;
+    margin-bottom: 40px;
 }
 #imgTop img{
     width: 100%;
@@ -69,6 +71,7 @@ a{
     padding-top: 55px;
     padding-bottom: 58px;
     text-align: center;
+    margin-left: 250px;
 }
 
 #textlogo{
@@ -122,11 +125,16 @@ a{
 #formText{
         margin-left: 75px;
     }
+#formText p{
+        margin-bottom: 50px;
+    }
 .textMeio{
         text-align: center;
+        margin-top: 140px;
+        margin-bottom:75px;
     }
 #form{
-    margin-top: 80px;
+    margin-top: 100px;
     margin-bottom: 100px;
 }
 #inputEmail{
@@ -155,8 +163,14 @@ a{
 #imgInferior{
     margin-top: 75px;
     margin-bottom: 300px;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
 }
-.img{
-    margin-right: 100px;
-    padding-left: 15px;
+#imgInferior img{
+    width: 100%;
+}
+#imgInferior .img{
+    margin-right:70px;
+    margin-top: 70px;
 }
